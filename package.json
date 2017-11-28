@@ -1,0 +1,38 @@
+{
+  "name": "pimatic-basic-http",
+  "description": "Plugin for basic http devices",
+  "author": {
+    "name": "Mauricio Margot",
+    "email": "mauriciomargot+domo@gmail.com"
+    
+  },
+  "license": "GPL-2.0",
+  "main": "basic-http.coffee",
+  "files": [
+    "doc",
+    "basic-http.coffee",
+    "README.md",
+    "device-config-schema.coffee",
+    "basic-http-config-schema.coffee",
+    "LICENSE"
+  ],
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mauriciom75/pimatic-basic-http.git"
+  },
+  "configSchema": "basic-http-config-schema.coffee",
+  "dependencies": {
+    "pimatic-plugin-commons": "^0.9.3"
+  },
+  "peerDependencies": {
+    "pimatic": "0.9.*"
+  },
+  "engines": {
+    "node": ">= 4",
+    "npm": ">= 2.x"
+  },
+
+  "_id": "pimatic-basic-http@0.0.2",
+  "scripts": {}
+}
